@@ -10,7 +10,7 @@
       "description": "a request for validating a payment method",
       "request": {
         "method": "get",
-        "path": "/validate-payment-method/1234123412341234"
+        "path": "/validate-payment-method/1111222233334444"
       },
       "response": {
         "status": 200,

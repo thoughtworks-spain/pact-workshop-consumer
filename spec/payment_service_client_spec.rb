@@ -4,7 +4,7 @@ require "payment_service_client"
 RSpec.describe PaymentServiceClient, pact: true do
 
   context "given a valid payment method" do
-    let(:valid_payment_method) { "1234123412341234" }
+    let(:valid_payment_method) { "1111222233334444" }
     let(:response_body) do { status: :valid } end
     before do
       payment_service
